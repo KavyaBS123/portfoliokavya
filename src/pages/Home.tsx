@@ -8,11 +8,18 @@ export default function Home() {
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white">
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 relative">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center opacity-20" />
-        <div className="max-w-7xl mx-auto relative z-10 pt-20">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-            Building Digital Experiences
-          </h1>
+        <div className="absolute insert-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072')] bg-cover bg-center opacity-20" />
+        <div className="max-w-10xl mx-auto relative z-10 pt-20">
+          <h6 className="text-6xl md:text-5xl font-bold mb-10 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
+          Hello world!
+         
+          </h6>
+         
+          <h1 className="text-100xl md:text-5xl font-bold mb-5 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
+            I'm Kavya
+            </h1>
+
+          
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
             Full Stack Developer passionate about creating innovative solutions and memorable user experiences.
           </p>

@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="absolute inset-0 rounded-full ring-2 ring-purple-400 transition-transform duration-300 group-hover:scale-110" />
           </Link>
           <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-            Sarthak
+            Kavya
           </Link>
         </div>
 
