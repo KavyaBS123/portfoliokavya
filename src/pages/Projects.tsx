@@ -23,7 +23,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white pt-24">
+    <div className="min-h-screen bg-white text-black pt-24">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-5xl md:text-6xl font-bold mb-12">Projects</h1>
         
@@ -36,7 +36,7 @@ export default function Projects() {
                   alt={project.title}
                   className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-6">
+                <div className="absolute inset-0 bg-white/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center space-x-6">
                   <a
                     href={project.github}
                     target="_blank"
@@ -56,12 +56,12 @@ export default function Projects() {
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
-              <p className="text-gray-400 mb-4">{project.description}</p>
+              <p className="text-black-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="px-3 py-1 bg-purple-900/30 rounded-full text-sm text-purple-400"
+                    className="px-3 py-1 bg-black-900/30 rounded-full text-sm text-purple-400"
                   >
                     {tag}
                   </span>

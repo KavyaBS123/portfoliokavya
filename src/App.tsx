@@ -15,6 +15,7 @@ export default function App() {
     <Router>
       <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-white">
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

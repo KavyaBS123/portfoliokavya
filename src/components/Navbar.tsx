@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import DarkModeToggle from './DarkModeToggle';
+
+import myimage from './myimage.jpeg';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,14 +33,14 @@ export default function Navbar() {
         <div className="flex items-center space-x-8">
           <Link to="/" className="relative group">
             <img
-              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400"
+              src={myimage}
               alt="Profile"
               className="w-10 h-10 rounded-full object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 rounded-full ring-2 ring-purple-400 transition-transform duration-300 group-hover:scale-110" />
           </Link>
-          <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-            Kavya
+          <Link to="/" className="text-2xl font-bold text-white-900 dark:text-white">
+           Kavya B S
           </Link>
         </div>
 
@@ -50,20 +51,20 @@ export default function Navbar() {
               key={item.path}
               to={item.path}
               className={`hover:text-purple-400 transition-colors ${
-                location.pathname === item.path ? 'text-purple-400' : 'text-gray-900 dark:text-white'
+                location.pathname === item.path ? 'text-purple-400' : 'text-black-900 dark:text-black'
               }`}
             >
               {item.label}
             </Link>
           ))}
-          <DarkModeToggle />
+          
         </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center space-x-4">
-          <DarkModeToggle />
+          
           <button 
-            className="text-gray-900 dark:text-white"
+            className="text-black-900 dark:text-black"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
