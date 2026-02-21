@@ -85,6 +85,7 @@ export const DATA = {
       logoUrl: "/contentlens.png",
       start: "February 2026",
       end: "Present",
+      description: "Building innovative software solutions for content analysis and optimization.",
     },
       {
       company: "CityX",
@@ -282,6 +283,7 @@ export const DATA = {
     {
       title: "Award-Winning Open Source Contributor",
       dates: "May 2024 - October 2025",
+      location: "Online",
       description:
         "Recognized among the Top 20 contributors in four national-level open source programs: Hacktoberfest, Vinyasa Summer of Code (VSOC), and GirlScript Summer of Code (GSSoC), Social Summer of Code – 2025.",
     },
