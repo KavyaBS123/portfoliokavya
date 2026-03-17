@@ -36,6 +36,11 @@ export default function ContactSection() {
           and I&apos;ll respond whenever I can. I will ignore all
           soliciting.
         </p>
+         <p className="mx-auto max-w-lg text-muted-foreground text-balance">Currently available for freelance work and full‑time opportunities
+
+Response time: Usually within 24 hours
+
+</p>
       </div>
     </div>
   );

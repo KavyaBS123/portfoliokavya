@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
-
+import React from "react";
 
 export const DATA = {
   image: "/me.png",
@@ -10,10 +10,9 @@ export const DATA = {
   location: "Bengaluru , Karnataka",
   locationLink: "https://www.google.com/maps/place/bengaluru",
   description:
-  
     "Computer Science engineer building at the intersection of AI, product, and entrepreneurship",
   summary:
-    " Currently pursuing Computer Science Engineering, I spend most of my time building AI-driven products, exploring entrepreneurship, and sharpening high-performance skills.I’ve developed scalable web platforms, worked on applied AI systems, participated in hackathons, and contributed to entrepreneurial communities. I’m deeply interested in how technology, business strategy, and execution combine to create meaningful ventures.",
+    "I'm a CS student, but most of what I've learned has come from building. AI systems, web platforms, hackathons, entrepreneurship—I've moved between these worlds enough to know that the interesting problems live at the edges of all of them. I build things, but I'm equally obsessed with the why behind them.",
   avatarUrl: "/me.png",
   skills: [
     { name: "React"},
