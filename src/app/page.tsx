@@ -49,7 +49,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
               {(() => {
-                const highlight = "I build things, but I'm equally obsessed with the why behind them.";
+                const highlight = "I love to build things, but I'm equally obsessed with the why behind them.";
                 const [before, after] = DATA.summary.split(highlight);
                 // Make 'why' italic in the highlighted sentence
                 const highlighted = highlight.replace('why', '<i>why</i>');

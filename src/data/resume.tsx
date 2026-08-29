@@ -19,6 +19,7 @@ export const DATA = {
     { name: "Next.js"},
     { name: "Typescript"},
     { name: "Node.js"},
+    { name: "Flutter"},
     { name: "Python"},
     { name: "Java"},
     { name: "Go"},
@@ -76,26 +77,40 @@ export const DATA = {
 
   work: [
     {
+      company: "Replaice",
+      href: "https://replaice.ai/",
+      badges: [],
+      location: "Onsite - Bengaluru, Karnataka",
+      title: "Software Engineer - 1",
+      logoUrl: "/replaice.png",
+      start: "June 2026",
+      end: "Present",
+      description:
+        "- Worked across full-stack web development, Flutter mobile application development, and AI-powered chat applications, contributing to frontend, backend, and end-to-end product development.\n- Recognized with the Flying Start Award for a strong start and contributions to the team.",
+    },
+    {
       company: "ContentLens.ai",
       href:"https://www.contentlens.ai/",
       badges: [],
       location: "Onsite - Bengaluru, Karnataka",
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       logoUrl: "/contentlens.png",
       start: "February 2026",
-      end: "Present",
-      description: "Building innovative software solutions for content analysis and optimization.",
+      end: "May 2026",
+      description:
+        "- Developed a cross-platform web and mobile app (iOS & Android) for AI-driven digital media analysis, integrating text and image processing pipelines.\n- Designed and developed scalable backend services using FastAPI, building RESTful APIs for data processing, storage, retrieval, and seamless integration with frontend applications.",
     },
-      {
+    {
       company: "CityX",
-      href:"https://cityxapp.in/",
+      href: "https://cityxapp.in/",
       badges: [],
       location: "Remote",
       title: "Full Stack Developer Intern",
       logoUrl: "/cityx.png",
       start: "December 2025",
       end: "March 2026",
-      description:"Built a real-time analytics dashboard for the CityX app to monitor urban metrics like service usage, traffic patterns, user engagement, and issue resolution rates. Integrated multiple data sources and implemented interactive visualizations (charts, heatmaps, trend analysis) to enable data-driven decision-making for smarter city operations."
+      description:
+        "- Built a real-time analytics dashboard for the CityX app to monitor urban metrics like service usage, traffic patterns, user engagement, and issue resolution rates.\n- Integrated multiple data sources and implemented interactive visualizations (charts, heatmaps, trend analysis) to enable data-driven decision-making for smarter city operations.",
     },
     {
       company: "Wimera Systems",
@@ -106,9 +121,9 @@ export const DATA = {
       logoUrl: "/wimera.png",
       start: "September 2025",
       end: "November 2025",
-        description:
-          "-Built ML models for predictive maintenance, anomaly detection, and production cycle analysis using IoT sensor data. -Developed data pipelines and dashboards to monitor OEE, downtime, and machine performance in real time. -Applied clustering and peak detection techniques to optimize production insights and reduce downtime.",
-      },
+      description:
+        "- Built ML models for predictive maintenance, anomaly detection, and production cycle analysis using IoT sensor data.\n- Developed data pipelines and dashboards to monitor OEE, downtime, and machine performance in real time.\n- Applied clustering and peak detection techniques to optimize production insights and reduce downtime.",
+    },
     
     {
       company: "BuildSpace",
