@@ -13,11 +13,11 @@ export const DATA = {
     "Computer Science engineer building at the intersection of AI, product, and entrepreneurship",
   summary: `A developer with a love for math, algorithms, and building things that work. Cloud, DevOps, Machine Learning, and AI are my go-tos, but more than the theory, I love taking an idea through the entire cycle: design, code, deploy, optimize, repeat.
 
-I'm an SDE working across Flutter, FastAPI, and applied ML — hands-on with LLD, HLD, and building systems that hold up at scale. That mix of structure and creativity is what keeps the work interesting.
+I'm an SDE working across Flutter, FastAPI, and applied ML  hands on with LLD, HLD, and building systems that hold up at scale. That mix of structure and creativity is what keeps the work interesting.
 
-The more I learn, the more I realize how much is still out there to explore — and with the pace things are moving, that list keeps growing.
+The more I learn, the more I realize how much is still out there to explore  and with the pace things are moving, that list keeps growing.
 
-You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" — always up for a good technical conversation.`,
+You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" always up for a good technical conversation.`,
   avatarUrl: "/me.png",
   skills: [
     { name: "React"},
