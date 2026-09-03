@@ -34,7 +34,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
               <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-top" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -49,24 +49,38 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
               {(() => {
-                const highlight = "I love to build things, but I'm equally obsessed with the why behind them.";
-                const [before, after] = DATA.summary.split(highlight);
-                // Make 'why' italic in the highlighted sentence
-                const highlighted = highlight.replace('why', '<i>why</i>');
-                return <>
-                  {before}
+                const highlight =
+                  "I love taking an idea through the entire cycle: design, code, deploy, optimize, repeat.";
+                const highlighted = highlight.replace(
+                  "design, code, deploy, optimize, repeat",
+                  "<i>design, code, deploy, optimize, repeat</i>"
+                );
+                return DATA.summary.split("\n\n").map((paragraph, index) => {
+                  if (!paragraph.includes(highlight)) {
+                    return (
+                      <p key={index} className="mb-4 last:mb-0">
+                        {paragraph}
+                      </p>
+                    );
+                  }
+                  const [before, after] = paragraph.split(highlight);
+                  return (
+                    <p key={index} className="mb-4 last:mb-0">
+                      {before}
                       <span
                         style={{
-                          backgroundColor: '#FFF59D',
-                          color: '#222',
-                          padding: '2px 4px',
-                          borderRadius: '3px',
-                          display: 'inline',
+                          backgroundColor: "#FFF59D",
+                          color: "#222",
+                          padding: "2px 4px",
+                          borderRadius: "3px",
+                          display: "inline",
                         }}
                         dangerouslySetInnerHTML={{ __html: highlighted }}
                       />
-                  {after}
-                </>;
+                      {after}
+                    </p>
+                  );
+                });
               })()}
             </div>
           </BlurFade>

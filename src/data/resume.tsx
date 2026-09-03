@@ -11,8 +11,13 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/bengaluru",
   description:
     "Computer Science engineer building at the intersection of AI, product, and entrepreneurship",
-  summary:
-    "I'm a CS student, but most of what I've learned has come from building. AI systems, web platforms, hackathons, entrepreneurship—I've moved between these worlds enough to know that the interesting problems live at the edges of all of them. I build things, but I'm equally obsessed with the why behind them.",
+  summary: `A developer with a love for math, algorithms, and building things that work. Cloud, DevOps, Machine Learning, and AI are my go-tos, but more than the theory, I love taking an idea through the entire cycle: design, code, deploy, optimize, repeat.
+
+I'm an SDE working across Flutter, FastAPI, and applied ML — hands-on with LLD, HLD, and building systems that hold up at scale. That mix of structure and creativity is what keeps the work interesting.
+
+The more I learn, the more I realize how much is still out there to explore — and with the pace things are moving, that list keeps growing.
+
+You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" — always up for a good technical conversation.`,
   avatarUrl: "/me.png",
   skills: [
     { name: "React"},
