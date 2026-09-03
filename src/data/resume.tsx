@@ -20,6 +20,7 @@ The more I learn, the more I realize how much is still out there to explore  and
 You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" always up for a good technical conversation.`,
   avatarUrl: "/me.png",
   skills: [
+    { name: "Getting things done"},
     { name: "React"},
     { name: "Next.js"},
     { name: "Typescript"},
