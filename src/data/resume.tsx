@@ -154,6 +154,30 @@ You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" always 
   ],
   projects: [
     {
+      title: "Veritas",
+      dates: "June 2026 - August 2026",
+      active: true,
+      description:
+        "Built a long-term contextual memory system for LLM applications that extracts, consolidates, and retrieves semantic facts and episodic events across conversations. Dual-memory architecture separates stable facts (preferences, traits) from time-bound episodic bubbles (active tasks, events), merges duplicate facts, promotes aged high-importance bubbles into semantic memory, and surfaces related episodes through a bidirectional FAISS connection graph. Multi-provider LLM support for OpenAI and OpenRouter.",
+      technologies: [
+        "Python",
+        "SQLAlchemy",
+        "FAISS",
+        "OpenAI API",
+        "Pydantic",
+        "SQLite",
+        "PostgreSQL",
+        "python-dotenv",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/KavyaBS123/Veritas",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
       title: "DealHunter",
       dates: "Jan 2024 - Jun 2024",
       active: true,
