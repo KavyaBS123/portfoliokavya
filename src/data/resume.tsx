@@ -11,7 +11,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/bengaluru",
   description:
     "Computer Science engineer building at the intersection of AI, product, and entrepreneurship",
-  summary: `A developer with a love for math, algorithms, and building things that work. Cloud, DevOps, Machine Learning, and AI are my go-tos, but more than the theory, I love taking an idea through the entire cycle: design, code, deploy, optimize, repeat.
+  summary: `A developer with a love for math, algorithms, and building things that work. Backend development, Machine Learning, and AI are my go-tos, but more than the theory, I love taking an idea through the entire cycle: design, code, deploy, optimize, repeat.
 
 I'm an SDE working across Flutter, FastAPI, and applied ML  hands on with LLD, HLD, and building systems that hold up at scale. That mix of structure and creativity is what keeps the work interesting.
 
