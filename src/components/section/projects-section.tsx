@@ -41,6 +41,7 @@ export default function ProjectsSection() {
                             <ProjectCard
                                 key={project.title}
                                 title={project.title}
+                                href={"href" in project ? project.href : undefined}
                                 description={project.description}
                                 dates={project.dates}
                                 tags={project.technologies}

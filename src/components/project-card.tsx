@@ -43,7 +43,7 @@ export function ProjectCard({
         className
       )}
     >
-      <div className="p-6 flex flex-col gap-3 flex-1">
+      <div className="p-6 flex flex-col gap-3 h-full">
         <div className="flex items-start justify-between gap-2">
           <div className="flex flex-col gap-1">
             <h3 className="font-semibold">{title}</h3>
@@ -59,42 +59,46 @@ export function ProjectCard({
             <ArrowUpRight className="h-4 w-4" aria-hidden />
           </Link>
         </div>
-        <div className="text-xs flex-1 prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
-          <Markdown>{description}</Markdown>
-        </div>
-        {tags && tags.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-auto">
-            {tags.map((tag) => (
-              <Badge
-                key={tag}
-                className="text-[11px] font-medium border border-border h-6 w-fit px-2"
-                variant="outline"
-              >
-                {tag}
-              </Badge>
-            ))}
+        {description ? (
+          <div className="text-xs flex-1 prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
+            <Markdown>{description}</Markdown>
           </div>
-        )}
-        {links && links.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-2">
-            {links.map((link, idx) => (
-              <Link
-                href={link.href}
-                key={idx}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+        ) : null}
+        <div className="mt-auto flex flex-col gap-3">
+          {tags && tags.length > 0 && (
+            <div className="flex flex-wrap gap-1">
+              {tags.map((tag) => (
                 <Badge
-                  className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90"
-                  variant="default"
+                  key={tag}
+                  className="text-[11px] font-medium border border-border h-6 w-fit px-2"
+                  variant="outline"
                 >
-                  {link.icon}
-                  {link.type}
+                  {tag}
                 </Badge>
-              </Link>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )}
+          {links && links.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {links.map((link, idx) => (
+                <Link
+                  href={link.href}
+                  key={idx}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Badge
+                    className="flex items-center gap-1.5 text-xs bg-black text-white hover:bg-black/90"
+                    variant="default"
+                  >
+                    {link.icon}
+                    {link.type}
+                  </Badge>
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

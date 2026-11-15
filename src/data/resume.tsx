@@ -154,20 +154,37 @@ You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" always 
   ],
   projects: [
     {
+      title: "Aporia Labs",
+      href: "https://aporia-labs.vercel.app/",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Independent AI research lab publishing working notes on large language models — experiments, results, and failures written while the work is still in progress.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "LLMs",
+        "AI Research",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://aporia-labs.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+    },
+    {
       title: "Veritas",
       dates: "June 2026 - August 2026",
       active: true,
       description:
-        "Built a long-term contextual memory system for LLM applications that extracts, consolidates, and retrieves semantic facts and episodic events across conversations. Dual-memory architecture separates stable facts (preferences, traits) from time-bound episodic bubbles (active tasks, events), merges duplicate facts, promotes aged high-importance bubbles into semantic memory, and surfaces related episodes through a bidirectional FAISS connection graph. Multi-provider LLM support for OpenAI and OpenRouter.",
+        "Long-term contextual memory for LLM apps that extracts, consolidates, and retrieves semantic facts and episodic events across conversations, with multi-provider OpenAI and OpenRouter support.",
       technologies: [
         "Python",
-        "SQLAlchemy",
         "FAISS",
         "OpenAI API",
-        "Pydantic",
-        "SQLite",
         "PostgreSQL",
-        "python-dotenv",
       ],
       links: [
         {
@@ -178,127 +195,24 @@ You'll usually find me with a coffee and Spotify in my ears. Drop a "Hi" always 
       ],
     },
     {
-      title: "DealHunter",
-      dates: "Jan 2024 - Jun 2024",
-      active: true,
-      description:
-        "Engineered DealHunter, a high-performance e-commerce analytics platform using Next.js, React 18, and Bright Data's WebUnlocker, processing scrapes across major retail websites like Amazon.",
-      technologies: [
-      " React JS",
-      " TypeScript",
-      " Next JS",
-       "Tailwind CSS",
-        "cron jobs", 
-        "Nodemailer", 
-        "Headless UI", 
-        "Cheerio", 
-        "MongoDB"
-      ],
-       links: [
-       
-        {
-          type: "Source",
-         href: "https://github.com/KavyaBS123/PriceWatcher",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "ScholarSphere",
-      dates: "January 2025",
-      active: true,
-      description:
-        "Architected ScholarSphere, an AI-powered scholarship discovery platform designed for underrepresented communities, enabling personalized search, DEI-aligned filtering, and real-time application tracking across various funding opportunities.",
-      technologies: [
-        "Python",
-         "Streamlit", 
-         "BeautifulSoup", 
-         "MongoDB", 
-         "OpenAI", 
-         "Scikit-learn",
-          "Seaborn", 
-          "Pandas", 
-          "NumPy"
-      ],
-      links: [
-       
-        {
-          type: "Source",
-        href: "https://github.com/KavyaBS123/Scholar_Sphere",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    
-    },
-    {
-      title: "AgriSnap",
-      dates: "June 2025 - July 2025",
-      active: true,
-      description:
-        "Developed an Flutter application for farmers and implemented a CNN-based multi-class image classifier using Keras on the PlantVillage dataset, preprocessing 5,000+ leaf images and achieving 95% accuracy in disease detection.",
-      technologies: [
-      "Python", 
-      "TensorFlow", 
-      "Keras", 
-      "CNN", 
-      "Flutter",
-      "Numpy" , 
-      "Pandas"
-      ],
-      links: [
-      
-        {
-          type: "Source",
-          href: "https://github.com/KavyaBS123/AgriSnap",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    
-    },
-      {
-      title: "BuzzBox Office",
-      dates: "October 2025",
-      active: true,
-      description:
-        "Comprehensive analytics platform that helps movie industry stakeholders make better-informed decisions about production, marketing, and distribution strategies.",
-      technologies: [
-      " Python", 
-      "FastAPI (WebSocket)",
-"Streamlit",
- "Plotly",
- "Scikit-learn (Random Forest)",
-      ],
-      links: [
-       
-        {
-          type: "Source",
-        href: "https://github.com/KavyaBS123/BuzzBox_Office",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    
-    },
-    {
       title: "NexusOps",
       dates: "December 2025",
       active: true,
       description:
-        "Think of an AI Browser Agent as a robot. It lives inside your computer. This robot can do things for you online. It can fill out forms. It can click buttons. It can even shop for you. AI Browser Agents make using the web easy. They do the boring stuff so you don't have to!",
-     technologies: [
-      "Python",
-      "Llama", 
-      "Deepseek",
-"Streamlit",
+        "AI browser agent that automates web tasks like filling forms, clicking buttons, and shopping — handling the repetitive work so you don't have to.",
+      technologies: [
+        "Python",
+        "Llama",
+        "Deepseek",
+        "Streamlit",
       ],
-        links: [
-       
+      links: [
         {
           type: "Source",
-        href: "https://github.com/KavyaBS123/NexusOps-",
+          href: "https://github.com/KavyaBS123/NexusOps-",
           icon: <Icons.github className="size-3" />,
         },
       ],
-    
     },
   ],
   hackathons: [
